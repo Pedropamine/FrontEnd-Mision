@@ -1,0 +1,439 @@
+.titulo{
+    display: flex;
+    justify-items: flex-start;
+    padding:  5px 15px 15px 170px;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #3353d1;
+}
+
+.navegacion{
+    display: flex;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #6d7b93;
+    background: -webkit-gradient(linear, left top, right top, from(rgb(255, 255, 255)), to(rgb(232, 245, 252,0.80)));
+    justify-content: flex-end;
+    height: 80px;
+    margin-right: 0%;
+    margin: 0px;
+
+}
+.nav
+{
+    width: 80px;
+    height: 10px;
+    padding: 30px 50px 15px 15px;
+    text-decoration: none;
+    color: #6d7b93;
+}
+
+.peleaVirus{
+  background-image:url("../img/triangle.jpg") ;
+  display: flex;
+}
+
+.asside
+{
+    width: 300px;
+    height: 600px;
+}
+
+.titulo2{
+    display: flex;
+    justify-items: flex-start;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    color: #1f3e72;
+    padding: 50px 50px 0px 70px;
+}
+
+.img-vacuna
+{
+    width: 600px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.acomoda-listas
+{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.txt-peleaVirus
+{
+    padding: 30px 50px 0px 70px;
+    font-size: 20px;
+     color: #6d7b93;
+}
+
+.txt-peleaVirus2
+{
+    font-size: 15px;
+    color: #6d7b93;
+    padding-left: 50px;
+}
+
+.img-iconos
+{
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.opcionesvf
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.txttvf
+{
+    font-family: 'Karla', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #6d7b93;
+}
+
+
+.txtvf
+{
+    font-family: 'Karla', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 50px;
+    font-size: 18px;
+    color: #1f3e72;
+}
+
+.button-vf
+{
+   margin: 30px;
+   width: 100px;
+   background-color: #f1f5ff;
+   height: 40px;
+   width: 150px;
+   font-family: 'Karla', sans-serif;
+   font-family: 'Pacifico', cursive;
+   font-family: 'Roboto', sans-serif;
+   font-size: 15px;
+   border: none;
+   border-radius: 2px;
+   box-shadow: 20px 5px 5px rgb(121, 121, 121,0.35);
+   color: #3959d7;
+   cursor: pointer;
+}
+
+.button:hover
+{
+   background-color: #3959d7;
+   font-family: 'Karla', sans-serif;
+   font-family: 'Pacifico', cursive;
+   font-family: 'Roboto', sans-serif;
+   border: none;
+   border-radius: 2px;
+   box-shadow: 20px 5px 5px rgb(121, 121, 121,0.35);
+   color: #ffff;
+   cursor: pointer;
+}
+
+.img-iconosvf
+{
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.ventanaFlotante
+{
+    background: -webkit-gradient(linear, left top, right top, from(rgb(255, 255, 255)), to(rgb(232, 245, 252,0.80)));
+    position: absolute;
+    margin-left: 100px;
+    width: 800px;
+    height: 100px;
+    box-shadow: 20px 5px 5px rgb(121, 121, 121,0.35);
+}
+
+
+.Img-Logos
+{
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  background-color: -webkit-gradient(linear, left top, right top, from(rgb(255, 255, 255)), to(rgb(232, 245, 252,0.80))); ;
+}
+
+.preparacion-vacuna
+{
+    display: flex;
+    flex-direction: column;
+    background-image:url("../img/triangle.jpg") ;
+    width: 100%;
+    height: 600px;
+}
+
+.opcionesPreparacion-img
+{
+    display: flex;
+    flex-direction: column;
+    background-image:url("../img/triangle.jpg") ;
+    width: 600px;
+
+}
+
+
+.titulo3{
+    padding-left: 600px;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    color: #1f3e72;
+
+}
+
+.footer
+{
+    background-image:url("../img/triangle.jpg") ;
+    display: flex;    
+    width: 100%;
+    height: 300px;
+}
+
+
+.tituloListas{
+    font-family: 'Karla', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #1f3e72
+}
+
+
+
+
+.contacto-emergenciacontainer
+{
+  display: flex;
+}
+.txt-contactoEmergencia
+{
+    padding: 0px 50px 0px 70px;
+    font-size: 20px;
+    color: #6d7b93;
+}
+
+
+
+.txt-listasbeneficios
+{
+    font-size: 15px;
+    color: #6d7b93;
+}
+
+.txtOpciones
+{
+    font-size: 18px;
+    color: #6d7b93;
+    padding-left: 10px;
+}
+
+
+
+.asside,.Img-Logos,.debo-vacunarme,.preparacion-vacuna,.contacto-emergencia,.footer,.navegacion,.peleaVirus,.titulo,.img-vacuna
+{
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.opcion1-preparacion
+{
+    display: flex;
+    margin-left: 700px;
+    margin-right: 0px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+.img-vacuna2
+{
+    position: relative;
+    width: 600px;
+    top: -68%;
+    left: 3%;
+}
+
+
+.img-vacuna3
+{
+    width: 700px;
+    float: left;
+}
+
+
+
+
+.lista-beneficios
+{
+    margin: 40px;
+    padding: 10px 20px 0px 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 10px 5px 5px #e4ecfa;
+
+}
+
+.img-listaiconos
+{
+    width: 60px;
+}
+
+.imgButtonLista
+{
+    width:20px;
+    height:20px;
+    padding-left: 30px;
+    padding-top: 15px; ;
+}
+
+.img-opcionesPruebas
+{
+    width:40px;
+    height:40px;
+    padding-top: 10px;
+}
+
+.img3
+{
+ padding-top: 30px;   
+ padding-bottom: 30px;   
+ width: 400px;
+}
+
+.acomoda-listas2
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.lista-contacto
+{
+    margin-left: 40px;
+    margin-right: 0px;
+    border: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    border-style: solid;
+    box-shadow: 20px 5px 5px #e4ecfa;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.llamada-accion
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 0px;
+    padding: 30px;
+
+}
+
+.caja-llamaaccion
+{
+  width: 200px;
+  padding: 50px;
+  margin: 5px;
+  box-shadow: 10px 5px 5px #e4ecfa;
+  text-align: center;
+  border-radius: 15%;
+}
+
+.img-iconollamaaccion
+{
+    width: 30px;
+}
+
+.btn1-llamaaccion
+{
+ background-color: #f1f5ff;
+ height: 40px;
+ width: 150px;
+ font-family: 'Karla', sans-serif;
+ font-family: 'Pacifico', cursive;
+ font-family: 'Roboto', sans-serif;
+ font-size: 15px;
+ border: none;
+ border-radius: 2px;
+ box-shadow: 20px 5px 5px #e4ecfa;
+ color: #3959d7;
+ cursor: pointer;
+}
+
+.txtLlamaaccion1
+{
+    font-size: 17px;
+    font: bold;
+    color: #6d7b93;
+}
+
+.txt-titulofooter
+{
+    font-size: 21px;
+    padding-left: 80px;
+    padding-top: 30px;
+    color: #3959d7;
+}
+
+.txt-titulofooter2
+{
+    color: #3959d7;
+}
+
+
+.txt-footer
+{
+    display: flex;
+    font-size: 17px;
+    text-align: justify;
+    color: #6d7b93;
+    padding-left: 70px;
+}
+
+.txt-footer2
+{
+    font-size: 17px;
+    color: #6d7b93;
+}
+
+.info-container
+{
+  display: flex;
+  margin-left: 150px;
+  margin-right: 0px;
+  width: 600px;
+}
+
+.div-infocontainer
+{
+  padding-left: 50px;
+}
+
+
+
+
