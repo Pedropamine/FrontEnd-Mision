@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+body {
+    background: #beb9b9;
+
+}
+
+* {
+    font-family: 'Press Start 2P', sans-serif;
+    box-sizing: border-box;
+}
+
+.pokedex {
+    background: #DD1638;
+    width: 35em;
+    height: 800;
+    margin: 40px auto;
+    margin-top: 50px;
+    border-radius: 45px;
+    display: block;
+    padding-bottom: 260px;
+
+}
+
+h1 {
+    display: block;
+    margin: 100px 0;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 900;
+}
+
+.poke-img {
+    display: block;
+    border: 1em solid rgb(156, 151, 151);
+    height: 16em;
+    width: 16em;
+    border-radius: 45px;
+    background: rgb(238, 206, 206);
+    margin: 0 auto;
+}
+
+img {
+    width: 15em;
+    padding-right:1em;
+}
+
+h3 {
+    display: block;
+    margin: 25px 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    display: block;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #DEDEDE;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    margin: 25px auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 16px;
+    color: white;
+    background: #26A4F2;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.big-light {
+    height: 70px;
+    width: 70px;
+    border-radius: 60%;
+    border: solid black;
+    margin-left: 16px;
+    background-color: #5fc4f7;
+  }
+
+  .lights-container {
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 200px;
+    height: 5%;
+    display: flex;
+    align-self: start;
+    justify-content: space-around;
+  }
+  
+  .small-light {
+    border: solid black;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+
+.stats
+	{
+		height: 810px;
+        overflow:auto;
+        overflow-x: hidden;
+		width: 510px;
+		padding: 20px;
+		background-color: #167b88;
+		z-index: 1;
+		font-size: 15px;
+
+		position: relative;
+		top: 10px;
+		left: 25px;
+
+		border-radius: 15px;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		-o-border-radius: 15px;
+
+		box-shadow: 0 0 20px #5457e0 inset;
+		-webkit-box-shadow: 0 0 20px #5457e0 inset;
+		-moz-box-shadow: 0 0 20px #5457e0 inset;
+		-o-box-shadow: 0 0 20px #5457e0 inset;
+	}
